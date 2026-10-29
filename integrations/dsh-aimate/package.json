@@ -1,0 +1,14 @@
+{
+  "name": "aimate-pet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Puts AINEMATE's desktop pet inside DeepSeek Harness: approvals answered on the pet, and turn/tool/error state forwarded as pet cards.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test test.mjs"
+  }
+}
